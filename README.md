@@ -1,2 +1,3 @@
-# Raspberry-Pi-Workshop-2024
-This repository hosts all the necessary documentation required for the Raspberry Pi Workshop hosted by the Austin Peay Cybersecurity Club in April 2024. 
+# Raspberry Pi Workshop 2024
+
+Welcome to the Raspberry Pi Workshop 2024 hosted by the Austin Peay Cybersecurity Club! This repository contains all the instructions and necessary documentation to set up a Pwnagotchi with a Raspberry Pi Zero.
