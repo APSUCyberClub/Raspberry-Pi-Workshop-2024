@@ -50,7 +50,7 @@ sudo systemctl restart pwnagotchi
 
 ###Important commands to know
 
-You edit many settings in the config. This includes enabling or disabling plugins. The config provided includes many plugins for your Pwnagotchi.
+You edit many settings in the config. This includes enabling or disabling plugins. The Pwnagotchi image provided includes many plugins for your Pwnagotchi.
 ```
 sudoedit /etc/pwnagotchi/config.toml
 ```
