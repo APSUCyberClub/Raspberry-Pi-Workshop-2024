@@ -34,7 +34,7 @@ Navigate to `inky.py` on this GitHub page and copy the file.
 
 In the Windows PowerShell type the following command:
 
-sudoedit /usr/local/lib/python3.9/dist-packages/pwnagotchi/ui/hw/inky.py
+`sudoedit /usr/local/lib/python3.9/dist-packages/pwnagotchi/ui/hw/inky.py`
 
 Replace the old `inky.py` file with the one provided by pasting it in. **Do not forget to remove the old inky.py information.**
 
@@ -42,7 +42,7 @@ Control + S will save your edits. Then hit Control + X to exit editing the file.
 
 Reboot your pwnagotchi by typing:
 
-sudo systemctl restart pwnagotchi
+`sudo systemctl restart pwnagotchi`
 
 ### Important commands to know
 
@@ -50,5 +50,5 @@ You edit many settings in the config. This includes enabling or disabling plugin
 
 You can navigate to a Web GUI by going to `https://[PwnagotchiIP]:8080`
 
-sudoedit /etc/pwnagotchi/config.toml
+`sudoedit /etc/pwnagotchi/config.toml`
 
