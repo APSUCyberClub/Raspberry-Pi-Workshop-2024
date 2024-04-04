@@ -1,4 +1,5 @@
 # How to Build a Pwnagotchi via Image
+This is if you are using a Linux or MacOS machine, if you're not, **GET OUT!** cheers!
 
 ## Step 1: Download the Image
 
