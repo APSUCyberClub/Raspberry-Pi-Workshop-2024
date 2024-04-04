@@ -9,8 +9,10 @@ This is if you are using a Linux or MacOS machine, if you're not, **GET OUT!** c
 ## Step 2: Flash the microSD Card
 
 1. Use a tool like Balena Etcher or Raspberry Pi Imager to flash the downloaded image onto a microSD card.
-2. Insert the microSD card into your computer, open the imaging tool, select the downloaded image, select the target microSD card, and start the flashing process.
-3. Once the flashing is complete, eject the microSD card safely.
+   - For Pi Imager head here: https://www.raspberrypi.com/software/
+   - For Balena etcher install here: https://etcher.balena.io/#download-etcher 
+3. Insert the microSD card into your computer, open the imaging tool, select the downloaded image, select the target microSD card, and start the flashing process.
+4. Once the flashing is complete, eject the microSD card safely.
 
 ## Step 3: Initial Configuration
 
