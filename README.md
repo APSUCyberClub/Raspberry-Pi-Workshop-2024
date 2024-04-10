@@ -7,6 +7,11 @@ Here's how you can convert your text into Markdown:
 
 A good guide to follow: [https://github.com/Xyl0se/Pwnagotchi-new-guerilla-guide?tab=readme-ov-file](https://github.com/Xyl0se/Pwnagotchi-new-guerilla-guide?tab=readme-ov-file)
 
+Some other important pages or places I used:
+  1. [https://pwnagotchi.org/getting-started/index.html](https://pwnagotchi.org/getting-started/index.html)
+  2. [https://pwnagotchi.ai/intro/](https://pwnagotchi.ai/intro/)
+  3. [https://discord.gg/M6mWyyrqYm](https://discord.gg/M6mWyyrqYm)
+
 ## Some cool plugins to add:
 
 1. **Hcxtools**: a requirement if you want to be able to make use of the hashie.py plugin, which can convert .pcap-files to crackable hashes.
