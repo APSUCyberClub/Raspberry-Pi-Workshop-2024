@@ -49,13 +49,6 @@
    - NOTE IF ERROR: `mv ~/.ssh/known_hosts ~/.ssh/known_hosts.backup`
    - NOTE: logging in from now on, you will ssh `pi@[whatevername you have in config]`
 
-## Step 6: Sharing the Internet with your Pwnagotchi
-1. Download the script from: [https://github.com/evilsocket/pwnagotchi/blob/master/scripts/macos_connection_share.sh](https://github.com/evilsocket/pwnagotchi/blob/master/scripts/macos_connection_share.sh)
-2. Cd to where it’s downloaded.
-3. Run `chmod +x macos_connection_share.sh` to make it executable
-4. Run the script: `sudo ./macos_connection_share.sh en0 10.0.0.1`
-5. Enter your password
-
 ## Step 6: Set up the config.toml file
 1. Add your config file
    - Enter the command: `sudo touch /etc/pwnagotchi/config.toml`
