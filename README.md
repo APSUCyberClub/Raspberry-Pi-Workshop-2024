@@ -1,7 +1,6 @@
 # Raspberry Pi Workshop 2024
 
 Welcome to the Raspberry Pi Workshop 2024 hosted by the Austin Peay Cybersecurity Club! This repository contains all the instructions and necessary documentation to set up a Pwnagotchi with a Raspberry Pi Zero.
-Here's how you can convert your text into Markdown:
 
 # Notes
 
@@ -16,6 +15,7 @@ Some other important pages or places I used:
 ## Some cool plugins to add:
 
 [https://github.com/jayofelony/pwnagotchi-torch-plugins/tree/main](https://github.com/jayofelony/pwnagotchi-torch-plugins/tree/main)
+
 [https://github.com/c-nagy/pwnagotchi-display-password-plugin](https://github.com/c-nagy/pwnagotchi-display-password-plugin) 
 
 1. **Hcxtools**: a requirement if you want to be able to make use of the hashie.py plugin, which can convert .pcap-files to crackable hashes.
