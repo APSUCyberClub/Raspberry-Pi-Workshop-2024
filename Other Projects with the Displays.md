@@ -1,5 +1,7 @@
 # Software Instructions for Pi Workshop
 
+This file is for projects using the displays or installing Kali Linux on your Pi0
+
 ## Installing Images onto MicroSD
 
 For Pi Imager, head here: [https://www.raspberrypi.com/software/](https://www.raspberrypi.com/software/)
