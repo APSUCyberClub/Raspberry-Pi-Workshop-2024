@@ -21,7 +21,7 @@
    b. Copy & paste the supplied `wpa_supplicant.txt` file
 4. Eject the SD card safely.
 
-## Step 4: Boot Up and SSH
+## Step 4: Configure & Share Internet to your Pwnagotchi
 1. Insert the microSD card into your Raspberry Pi and power it up.
 2. Wait for a few minutes for the initial boot process to complete.
    a. Ping the device: `ping [device name]` in my case it is `pi@raspberry`
@@ -33,7 +33,14 @@
       - Make sure to change the service order so WIFI is above the pwnagotchi.
       - Click "OK", then "Apply" to save your changes.
       - Verify it by: `ping pi@10.0.0.2`
-3. By default, Pwnagotchi creates a network interface for SSH. You can SSH into your Pi using its IP address (which can be found on your router's admin page) and the default credentials (“pi” as the username and “raspberry” as the password) over your network.
+3.	Download the script from: https://github.com/evilsocket/pwnagotchi/blob/master/scripts/macos_connection_share.sh
+   a.	Cd to the where it’s downloaded.
+   b.	Run `chmod +x macos_connection_share.sh` to make it executable
+   c.	Run the script: ` sudo ./macos_connection_share.sh en0 10.0.0.1`
+   d.	Enter your password
+
+## Step 5: SSH into your Pwnagotchi
+1. By default, Pwnagotchi creates a network interface for SSH. You can SSH into your Pi using its IP address (which can be found on your router's admin page) and the default credentials (“pi” as the username and “raspberry” as the password) over your network.
    a. Connect to the pi via: `ssh -4 [accountname]@[devicename]` (change to what the name is) my case is `pi@10.0.0.2`.
    b. Enter the password. It should be raspberry
    c. Enter yes and click enter.
@@ -42,7 +49,7 @@
    f. NOTE IF ERROR: `mv ~/.ssh/known_hosts ~/.ssh/known_hosts.backup`
    g. NOTE: logging in from now on, you will ssh `pi@[whatevername you have in config]`
 
-## Step 5: Sharing the Internet with your Pwnagotchi
+## Step 6: Sharing the Internet with your Pwnagotchi
 1. Download the script from: [https://github.com/evilsocket/pwnagotchi/blob/master/scripts/macos_connection_share.sh](https://github.com/evilsocket/pwnagotchi/blob/master/scripts/macos_connection_share.sh)
 2. Cd to where it’s downloaded.
 3. Run `chmod +x macos_connection_share.sh` to make it executable
@@ -75,6 +82,7 @@
 5. Ssh back into it to change/adjust anything
 
 ## Step 7: Setting up PiSugar Battery
+If using Pisugar2 go here: [https://github.com/PiSugar/PiSugar/wiki/PiSugar2#](https://github.com/PiSugar/PiSugar/wiki/PiSugar2#) 
 1. Go to the home directory
    a. `cd ~`
 2. Install PiSugar Power Manager
@@ -86,3 +94,5 @@
    a. `sudo ln -s ~/pisugar2py/ /usr/local/lib/python3.7/dist-packages/pisugar2`
 5. Installs the user-plugin
    a. `sudo ln -s ~/pwnagotchi-pisugar2-plugin/pisugar2.py /etc/pwnagotchi/custom-plugins/pisugar2.py`
+
+Troubleshooting: [https://www.reddit.com/r/pwnagotchi/comments/nwppei/pisugar_2_doesnt_switch_on_unless_data_cable_is/](https://www.reddit.com/r/pwnagotchi/comments/nwppei/pisugar_2_doesnt_switch_on_unless_data_cable_is/)
