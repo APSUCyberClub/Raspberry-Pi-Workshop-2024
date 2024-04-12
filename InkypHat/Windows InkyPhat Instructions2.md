@@ -26,7 +26,7 @@
 1. Go to Control Panel > Network and Internet > Network Connections.
 2. Locate the Ethernet, Enabled, RNDIS device.
 3. Open its properties and select Internet Protocol Version 4 (IPv4).
-4. Set the IP address as provided (e.g., 10.0.0.1) and the default gateway to 255.255.255.0.
+4. Set the IP address and Default Gateway as provided (e.g., 10.0.0.1) and the subnet mask to 255.255.255.0.
 
 ## Step 6: Connecting via SSH
 1. Open Windows PowerShell.
